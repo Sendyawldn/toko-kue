@@ -1,0 +1,9 @@
+node_modules
+dist
+.git
+.agentic-backup
+npm-debug.log
+Dockerfile
+compose.yaml
+compose.prod.yaml
+README.Docker.md

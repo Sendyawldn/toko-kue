@@ -1,0 +1,57 @@
+{
+  "schemaVersion": "active-memory-v1",
+  "snapshotPurpose": "compact-cross-session-continuity",
+  "updatePolicy": {
+    "writeWhen": "natural-task-boundary",
+    "overwriteOnlyWithCurrentRepoEvidence": true,
+    "preserveUserOwnedContent": true
+  },
+  "project": {
+    "name": "toko-kue",
+    "currentFocus": "First-release Vite cake shop storefront is implemented and running locally.",
+    "durableFacts": [
+      "Required bootstrap docs were created for a cake shop sales website.",
+      "First release is a frontend-first storefront with client-side cart and WhatsApp checkout.",
+      "The app uses Vite 8.0.12 with Node/npm tooling and static product data.",
+      "Docker assets exist for development and production lanes, but Docker is not installed in this WSL environment."
+    ]
+  },
+  "progress": {
+    "lastAchievements": [
+      "Created project brief, architecture decision record, flow overview, API contract, database schema note, and design contract.",
+      "Refined docs/design-intent.json with a bakery-specific design anchor and runtime recommendation.",
+      "Implemented catalog, filters, cart quantity controls, order notes, and WhatsApp checkout.",
+      "Added Vite package files, Dockerfile, Compose files, and Docker runbook."
+    ],
+    "pendingIssues": [
+      "The WhatsApp number, product list, prices, and photos should be replaced with real bakery data before launch.",
+      "Docker Compose syntax could not be validated because docker is not installed in the WSL environment."
+    ],
+    "nextBestActions": [
+      "Validate the storefront visually in a browser with real product data.",
+      "Enable Docker Desktop WSL integration before testing container commands."
+    ],
+    "validationState": [
+      "npm install completed with 0 vulnerabilities.",
+      "npm run validate passed via Vite production build.",
+      "Dev server responds HTTP 200 at http://localhost:5173/.",
+      "docker compose config was skipped by missing docker command in WSL."
+    ]
+  },
+  "designContinuity": {
+    "visualLanguageContinuity": "opt-in-only",
+    "currentConceptualAnchor": "stainless bakery proofing rack during morning prep",
+    "forbiddenCarryover": [
+      "prior-project-style-memory",
+      "old-ui-visual-dna-without-user-approval",
+      "generic-dashboard-defaults"
+    ]
+  },
+  "privacy": {
+    "storeSecrets": false,
+    "storeRawChatLogs": false,
+    "redactSensitiveTextBeforeWriting": true
+  },
+  "generatedAt": "2026-05-12T03:43:50.795Z",
+  "lastUpdatedAt": "2026-05-12T10:57:00+07:00"
+}
